@@ -20,6 +20,7 @@
                 <td>{{ user.created_at }}</td>
             </tr>
         </table>
+        <p><router-link to="/">ホーム</router-link></p>
     </div>
 </template>
 

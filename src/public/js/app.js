@@ -1935,6 +1935,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -37508,7 +37509,9 @@ var render = function() {
         _vm._v(" "),
         _c("td", [_vm._v(_vm._s(_vm.user.created_at))])
       ])
-    ])
+    ]),
+    _vm._v(" "),
+    _c("p", [_c("router-link", { attrs: { to: "/" } }, [_vm._v("ホーム")])], 1)
   ])
 }
 var staticRenderFns = []
