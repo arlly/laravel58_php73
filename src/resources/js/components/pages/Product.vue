@@ -4,6 +4,7 @@
             <p v-show="isError">情報の取得に失敗しました。</p>
 
             <div>
+                <p><router-link to="/">ホーム</router-link></p>
                 <div class="col-sm-6">
                     <ul class="pagination">
                         <li :class="{disabled: current_page <= 1}"><a href="javascript:void(0)" @click="change(1)">&laquo;</a></li>
