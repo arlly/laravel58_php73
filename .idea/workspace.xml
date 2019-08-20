@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204c59ef-dcf9-4691-8c63-77ca6c6a1036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php73.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php73.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Eloquent/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Eloquent/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -171,8 +165,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
@@ -221,7 +218,8 @@
       <workItem from="1557041672810" duration="4160000" />
       <workItem from="1558073679231" duration="2412000" />
       <workItem from="1558076145305" duration="2016000" />
-      <workItem from="1566265004609" duration="154000" />
+      <workItem from="1566265004609" duration="1970000" />
+      <workItem from="1566289183360" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="諸々講習した。">
       <created>1558077623232</created>
@@ -248,7 +246,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
