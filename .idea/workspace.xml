@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="204c59ef-dcf9-4691-8c63-77ca6c6a1036" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -219,7 +217,7 @@
       <workItem from="1558073679231" duration="2412000" />
       <workItem from="1558076145305" duration="2016000" />
       <workItem from="1566265004609" duration="1970000" />
-      <workItem from="1566289183360" duration="3527000" />
+      <workItem from="1566289183360" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="諸々講習した。">
       <created>1558077623232</created>

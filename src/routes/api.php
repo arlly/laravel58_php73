@@ -29,6 +29,6 @@ Route::post('/login', 'AuthController@login');
 Route::group(['middleware' => 'auth:api'], function () {
     Route::get('/me', 'AuthController@me');
     Route::post('/logout', 'AuthController@logout');
-
     Route::get('/product', 'Api\ProductController@index');
 });
+
