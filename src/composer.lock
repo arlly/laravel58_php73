@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.109.7",
+            "version": "3.109.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e8d3416f9b1e21029fc0eb63df075e325c690187"
+                "reference": "a7948d0de42185cb1af551713a0e99ad593fd962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e8d3416f9b1e21029fc0eb63df075e325c690187",
-                "reference": "e8d3416f9b1e21029fc0eb63df075e325c690187",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a7948d0de42185cb1af551713a0e99ad593fd962",
+                "reference": "a7948d0de42185cb1af551713a0e99ad593fd962",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-08-19T18:08:45+00:00"
+            "time": "2019-08-20T18:42:25+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -1240,16 +1240,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.8.32",
+            "version": "v5.8.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ee16d719516dfd77ed6c9538000bca49ded284e2"
+                "reference": "58b81842cbdcfbbd8302790ac0f98119ea1c56e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ee16d719516dfd77ed6c9538000bca49ded284e2",
-                "reference": "ee16d719516dfd77ed6c9538000bca49ded284e2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/58b81842cbdcfbbd8302790ac0f98119ea1c56e5",
+                "reference": "58b81842cbdcfbbd8302790ac0f98119ea1c56e5",
                 "shasum": ""
             },
             "require": {
@@ -1383,20 +1383,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-08-13T14:11:52+00:00"
+            "time": "2019-08-20T15:45:17+00:00"
         },
         {
             "name": "laravel/passport",
-            "version": "v7.3.5",
+            "version": "v7.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/passport.git",
-                "reference": "57937b08dc8e444b4756782a5ba172b5ba54d4f5"
+                "reference": "4460bd1fb5d913d75e547caf02a5a19c6d77794d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/passport/zipball/57937b08dc8e444b4756782a5ba172b5ba54d4f5",
-                "reference": "57937b08dc8e444b4756782a5ba172b5ba54d4f5",
+                "url": "https://api.github.com/repos/laravel/passport/zipball/4460bd1fb5d913d75e547caf02a5a19c6d77794d",
+                "reference": "4460bd1fb5d913d75e547caf02a5a19c6d77794d",
                 "shasum": ""
             },
             "require": {
@@ -1407,6 +1407,7 @@
                 "illuminate/console": "~5.6.0|~5.7.0|~5.8.0|^6.0",
                 "illuminate/container": "~5.6.0|~5.7.0|~5.8.0|^6.0",
                 "illuminate/contracts": "~5.6.0|~5.7.0|~5.8.0|^6.0",
+                "illuminate/cookie": "~5.6.0|~5.7.0|~5.8.0|^6.0",
                 "illuminate/database": "~5.6.0|~5.7.0|~5.8.0|^6.0",
                 "illuminate/encryption": "~5.6.0|~5.7.0|~5.8.0|^6.0",
                 "illuminate/http": "~5.6.0|~5.7.0|~5.8.0|^6.0",
@@ -1453,7 +1454,7 @@
                 "oauth",
                 "passport"
             ],
-            "time": "2019-08-06T18:10:19+00:00"
+            "time": "2019-08-20T18:10:43+00:00"
         },
         {
             "name": "laravel/tinker",

@@ -17,6 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::post('users', 'Api\UserController@store');
+
+
 Route::get('/personal', function(){
     $user = App\Eloquent\User::find(1);
     $token = $user->createToken('token_for_user1')->accessToken;
