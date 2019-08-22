@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Eloquent\User;
+use App\Http\Requests\UserRequest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -34,19 +35,8 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UserRequest $request)
     {
-        $valid = validator($request->only('email', 'name', 'password'), [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6',
-        ]);
-
-        if ($valid->fails()) {
-            $jsonError=response()->json($valid->errors()->all(), 400);
-            return \Response::json($jsonError);
-        }
-
         $data = request()->only('email','name','password');
 
         $user = User::create([
@@ -55,7 +45,7 @@ class UserController extends Controller
             'password' => bcrypt($data['password'])
         ]);
 
-        $request->request->add([
+        request()->request->add([
             'username'      => $data['email'],
             'password'      => $data['password']
         ]);
